@@ -4,23 +4,21 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Projets - ADAMOU Youssouf</title>
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-  />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+  </style>
 </head>
 <body>
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
     <div class="container">
       <a class="navbar-brand" href="index.html">ADAMOU Youssouf</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNav"
-      >
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -28,14 +26,10 @@
           <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
           <li class="nav-item"><a class="nav-link" href="about.html">À propos</a></li>
           <li class="nav-item"><a class="nav-link" href="skills.html">Compétences</a></li>
-          <li class="nav-item">
-            <a class="nav-link active" href="projects.html">Projets</a>
-          </li>
+          <li class="nav-item"><a class="nav-link active" href="projects.html">Projets</a></li>
           <li class="nav-item"><a class="nav-link" href="certifications.html">Certifications</a></li>
           <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-          <li class="nav-item">
-            <a class="nav-link" href="cv/cv-adamou-youssouf.pdf" download>Télécharger CV</a>
-          </li>
+          <li class="nav-item"><a class="nav-link" href="cv/cv-adamou-youssouf.pdf" download>Télécharger CV</a></li>
         </ul>
       </div>
     </div>
@@ -49,22 +43,13 @@
       <!-- Projet 1 -->
       <div class="col-md-6 col-lg-4">
         <div class="card shadow-sm h-100">
-          <img
-            src="images/projet-web.jpg"
-            class="card-img-top"
-            alt="Projet Web"
-          />
+          <img src="images/projet-web.jpg" class="card-img-top" alt="Capture du site web portfolio d’ADAMOU Youssouf" />
           <div class="card-body d-flex flex-column">
             <h5 class="card-title">Site Web de Portfolio</h5>
             <p class="card-text flex-grow-1">
-              Création d’un site web responsive pour présenter mes compétences et projets, en utilisant HTML, CSS, Bootstrap et JavaScript.
+              Création d’un site web responsive pour présenter mes compétences, projets, formations et certificats. Technologies utilisées : HTML, CSS, Bootstrap et JavaScript.
             </p>
-            <a
-              href="https://github.com/youssouf-portfolio"
-              target="_blank"
-              class="btn btn-primary mt-auto"
-              >Voir sur GitHub</a
-            >
+            <a href="https://github.com/ADAMOUYoussouf/" target="_blank" class="btn btn-primary mt-auto">Voir sur GitHub</a>
           </div>
         </div>
       </div>
@@ -72,95 +57,32 @@
       <!-- Projet 2 -->
       <div class="col-md-6 col-lg-4">
         <div class="card shadow-sm h-100">
-          <img
-            src="images/projet-reseau.jpg"
-            class="card-img-top"
-            alt="Projet Réseau"
-          />
+          <img src="images/projet-php.jpg" class="card-img-top" alt="Capture d’un site HTML/CSS développé par ADAMOU Youssouf" />
           <div class="card-body d-flex flex-column">
-            <h5 class="card-title">Configuration Réseau d’entreprise</h5>
+            <h5 class="card-title">Création d’un site web HTML & CSS</h5>
             <p class="card-text flex-grow-1">
-              Mise en place d’un réseau local sécurisé avec configuration des routeurs, VLANs et gestion des accès utilisateurs.
+              Développement d’un site web statique avec HTML et CSS pour apprendre à structurer des pages web et créer un design responsive simple.
             </p>
-            <a
-              href="#"
-              class="btn btn-primary mt-auto disabled"
-              aria-disabled="true"
-              >Pas de lien disponible</a
-            >
-          </div>
-        </div>
-      </div>
-
-      <!-- Projet 3 -->
-      <div class="col-md-6 col-lg-4">
-        <div class="card shadow-sm h-100">
-          <img
-            src="images/projet-systeme.jpg"
-            class="card-img-top"
-            alt="Projet Système"
-          />
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title">Administration Linux</h5>
-            <p class="card-text flex-grow-1">
-              Gestion et sécurisation d’un serveur Linux pour un projet de surveillance industrielle, incluant scripts Bash et configuration système.
-            </p>
-            <a
-              href="#"
-              class="btn btn-primary mt-auto disabled"
-              aria-disabled="true"
-              >Pas de lien disponible</a
-            >
-          </div>
-        </div>
-      </div>
-
-      <!-- Projet 4 -->
-      <div class="col-md-6 col-lg-4">
-        <div class="card shadow-sm h-100">
-          <img
-            src="images/projet-php.jpg"
-            class="card-img-top"
-            alt="Projet PHP"
-          />
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title">Application Web PHP/MySQL</h5>
-            <p class="card-text flex-grow-1">
-              Développement d’une application web CRUD (Create, Read, Update, Delete) en PHP avec base de données MySQL.
-            </p>
-            <a
-              href="https://github.com/youssouf-php-app"
-              target="_blank"
-              class="btn btn-primary mt-auto"
-              >Voir sur GitHub</a
-            >
-          </div>
-        </div>
-      </div>
-
-      <!-- Projet 5 -->
-      <div class="col-md-6 col-lg-4">
-        <div class="card shadow-sm h-100">
-          <img
-            src="images/projet-uml.jpg"
-            class="card-img-top"
-            alt="Projet UML"
-          />
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title">Modélisation UML</h5>
-            <p class="card-text flex-grow-1">
-              Conception de diagrammes UML pour un système de gestion commerciale, avec cas d’utilisation, classes et séquences.
-            </p>
-            <a
-              href="#"
-              class="btn btn-primary mt-auto disabled"
-              aria-disabled="true"
-              >Pas de lien disponible</a
-            >
+            <a href="https://github.com/ADAMOUYoussouf/TP_WEB.git" target="_blank" class="btn btn-primary mt-auto">Voir sur GitHub</a>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- Projet 3 -->
+<div class="col-md-6 col-lg-4">
+  <div class="card shadow-sm h-100">
+    <img src="images/projet-orientation.jpg" class="card-img-top" alt="Site d’orientation pour les nouveaux bacheliers" />
+    <div class="card-body d-flex flex-column">
+      <h5 class="card-title">Plateforme d’Orientation Post-Bac</h5>
+      <p class="card-text flex-grow-1">
+        Conception d’un site web permettant d’aider les nouveaux bacheliers à choisir leur filière ou établissement selon leur série, leurs résultats et leurs centres d’intérêt.
+        Ce projet vise à simplifier l’orientation scolaire grâce à une interface intuitive et des informations fiables.
+      </p>
+      <a href="https://biloghe.github.io/ORIENT2/" target="_blank" class="btn btn-primary mt-auto">Voir le site</a>
+    </div>
+  </div>
+</div>
   </main>
 
   <!-- Footer -->
